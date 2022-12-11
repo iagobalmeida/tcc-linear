@@ -1,4 +1,5 @@
-from fastapi import APIRouter, Body, Header, JSONResponse
+from fastapi import APIRouter, Body, Header
+from fastapi.responses import JSONResponse
 from connectors.jsonplaceholder import users
 
 
